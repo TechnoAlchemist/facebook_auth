@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'omniauth-facebook'
+gem 'figaro', '0.7.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

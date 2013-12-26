@@ -42,6 +42,9 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hashie (2.0.5)
     hike (1.2.1)
     httpauth (0.2.0)
@@ -125,6 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  figaro (= 0.7.0)
   jquery-rails
   omniauth-facebook
   rails (= 3.2.6)
