@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'coffee-rails', '~> 4.0.0'
-gem 'omniauth-facebook'
+gem 'omniauth-facebook', '1.4.0'
 gem 'figaro', '0.7.0'
 
 # To use ActiveModel has_secure_password

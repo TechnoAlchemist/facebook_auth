@@ -4,13 +4,14 @@ class MoviesController < ApplicationController
   end
 
   def show
-    @movie = Movie.find(movie_params)
+    @movie = Movie.find(params[:id])
+    @reviews = Review.where(movie_id: @movie.id)
   end
 
   private
 
    def movie_params
-  	params.require(:Movie).permit(:description, :image, :name)
+  	params.require(:movie).permit(:description, :image, :name)
   end
 
 end
